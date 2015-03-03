@@ -1,0 +1,11 @@
+{
+  "name": "gulp-nuget-packages",
+  "version": "0.1.0",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "request": "^2.53.0",
+    "fs": "0.0.2",
+    "gulp-util": "^3.0.4",
+    "gulp-shell": "^0.3.0"
+  }
+}
