@@ -26,11 +26,9 @@
             cwd: config.nugetPath
         };
 
-        gulp.src('')
+        return gulp.src('')
             .pipe(shell(cmds, conf))
             .on('error', util.log);
-
-        return gulp.src('');
     }
 
     module.exports = gulpNugetPackages;
